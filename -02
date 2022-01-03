@@ -1,0 +1,11 @@
+cases = [100, 125, 110, 135, 93, 95, 93]
+
+index = 0
+total = 0
+
+while index < 7:
+    cases_of_day = cases[index]
+    total = total + cases_of_day
+    index = index + 1
+    
+print("合計値は:", total)
